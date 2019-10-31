@@ -280,7 +280,8 @@ delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
             // Can you find two different numbers that each cast to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
-
+            const falsyNumber1 = 0;
+            const falsyNumber2 = NaN
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyNumber1).to.equal("number");
