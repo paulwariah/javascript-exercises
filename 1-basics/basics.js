@@ -208,6 +208,7 @@ delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
             // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
             // ✏️ ADD CODE HERE ✏️
+            const secondArray = firstArray.slice()
 
             ////////////////////////////////////////////////////////////////////
 
@@ -229,6 +230,7 @@ delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
             // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
             // ✏️ ADD CODE HERE ✏️
+            const longArray =Array(100)
 
             ////////////////////////////////////////////////////////////////////
 
@@ -246,7 +248,8 @@ delete object.someProperty;
             // By observing their casting behavior in the tests below, you can find
             // out the required types.
             // ✏️ ADD CODE HERE ✏️
-
+            const firstVariable = 3;
+            const secondVariable = "1"
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof firstVariable).to.equal("number");
