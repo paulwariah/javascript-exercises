@@ -266,7 +266,7 @@ delete object.someProperty;
             ////////////////////////////////////////////////////////////////////
             // Can you find a string that casts to `false` in an if() statement?
             // ✏️ ADD CODE HERE ✏️
-
+            const falsyString = "";
             ////////////////////////////////////////////////////////////////////
 
             expect(typeof falsyString).to.equal("string");
